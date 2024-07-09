@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about .profile-photo {
+    display: block;
+    max-width: 180px;
+    margin: 0 auto 50px auto;
+    border-radius: 50%;
+    background-color: deepskyblue;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#skills ul li {
+    display: nextline-block;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+#projects .project {
+    margin-bottom: 20px;
+    background-color:deepskyblue;
+}
+
+#projects .project img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#resume a {
+    display: block;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#resume a:hover {
+    background-color: #555555;
+}
+
+#contact p {
+    text-align: center;
+    font-size: 1.2em;
+    background-color: aqua;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
